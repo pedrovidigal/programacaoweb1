@@ -10,14 +10,14 @@
 
 <h1> Resultado Tabuada </h1>
 <%
-        // Obtém o número da solicitação do formulário
+        
         String numeroStr = request.getParameter("numero");
         int numero = Integer.parseInt(numeroStr);
     %>
     <p>Tabuada do <%= numero %>:</p>
     <table border="1">
         <tr>
-            <th>Operação</th>
+            <th>OperaÃ§Ã£o</th>
             <th>Resultado</th>
         </tr>
         <%
